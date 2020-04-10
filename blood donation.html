@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <title>Blood Donation</title>
+    <link href="fa/fa/css/svg-with-js">
+    <link href="css/blood.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <h2><i class="fas fa-plus"></i>Blood Bank </h2>
+    </div>
+
+    <div class="login-box"><center>
+        <h1>Blood Donation <i class="fas fa-tint"></i></h1>
+        <p> A socal intiative</p>
+        <div class="form-login">
+            <form action="" method="post">
+                <label for="username"></label>
+                <input type="text" class="text " placeholder="doner">
+                <label for="username"></label>
+                <input type="password" class="password " placeholder="password">
+                <button type="submit">LOGIN</button>
+            </form>
+         </div>
+         </center>   
+    </div>
+    <!-- this is for work area-->
+    <center>
+<div class="r-tab">
+        <ul class="tabs">
+            <li class="tab active" tab="t1">HOME</li>
+            <li class="tab " tab="t2">How To Donate Blood</li>
+            <a href="who.html"><li class="tab " tab="t3">Why To Donate Blood</li></a>
+           <a href="refer.html"> <li class="tab " tab="t4">Refer a Friend</li></a>
+           <a href="contact.html"> <li class="tab " tab="t5">Contact Us</li></a>
+        </ul>
+        <div id="t1" class=" content active">
+            <div class="home-register">
+                <!-- register section-->
+                <div class="register">
+                    <span>
+                        <div class="form-search">
+                            <h3 class="text-center">Find a Donor</h3>
+                            <form action="" method="post">
+                            <label for="state">State:</label><br>
+                            <input type="text" class="text" placeholder="Enter your state"><br>
+                            <label for="city">City:</label><br>
+                            <input type="text" class="text" placeholder="Enter your city"><br>
+                            <label for="area">Area:</label><br>
+                            <input type="text" class="text" placeholder="Enter your area"><br>
+                            <label for="group">Group:</label><br>
+                            <input type="text" class="text" placeholder="Enter  blood group"><br>
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </span> 
+                    <!-- upload-->
+                    <span>
+                        <div class="upload">
+                        	<h5 >image/video for blood donation</h5>
+                        	<input type='file' onchange="readURL(this);" >
+                        	<button type="submit"><i class="fas fa-upload"></i>upload</button>
+                        	<br>
+                        	<img id="blah" src="#" alt="your image" />
+                        </div>
+</div>
+</center>
+ <hr>
+               <!--process section-->
+               <center>
+<div class="process" style="background-image: url('img/blood.png');">
+    <h2>Donation Process...... <hr> </h2>
+    <br>
+   <div class="para">
+    <p>Donating blood is a safe, simple, and rewarding experience that usually only takes 45-60 minutes.
+       <h3> Before You Donate</h3>
+        
+            <p> To donate blood, find a blood bank near you using AABB’s blood bank locator. Then, call the blood bank to make an appointment. When making the appointment, ask the following questions:
+        <br>
+            What are your general donor requirements? (Most places require you to weigh a minimum of 110 pounds, be at least 16 years old and be generally healthy).
+            What kind of identification is required? (First-time donors are usually asked to present two forms of identification—the type of identification needed varies by facility).
+            If you have any particular health concerns or have traveled outside of the country, it’s also a good idea to inform the blood bank at the time you are making your appointment.</p>
+        
+            <h3>When You Arrive at the Blood Donation Center</h3>
+        
+            <p>  When you sign in, you will be asked to complete a donor registration form, which includes your name, address, phone number, and various other types of demographic information.
+            You will also be asked to show your donor card or the type of identification required by the particular blood bank you visit.
+            </p>
+        
+            <h3> Pre-Donation Screening</h3>
+            <p> During pre-donation screening, a blood bank employee will ask you some questions about your health, lifestyle, and disease risk factors. All of this information is confidential.
+            Next, an employee will perform a short health exam, taking your pulse, temperature and blood pressure.
+            A drop of blood from your finger will also be tested to ensure that your blood iron level is sufficient for you to donate. All medical equipment used for this test, as well as during the donation process, is sterile, used only once and then disposed.
+            </p>
+        
+            <h3>  Blood Donation</h3>
+        
+            <p> Once the pre-donation screening is finished, you will proceed to a donor bed where your arm will be cleaned with an antiseptic, and a professional will use a blood donation kit to draw blood from a vein in your arm. If you are allergic to iodine, be sure to tell the phlebotomist at this point.
+            During the donation process, you will donate one unit of blood; this takes about six to ten minutes.
+            </p>
+        
+            <h3> Post-Donation</h3>
+        
+            <p> Following your donation, you will receive refreshments in the canteen area, where you can stay until you feel strong enough to leave.
+            After donating, it is recommended that you increase your fluid intake for the next 24 to 48 hours; avoid strenuous physical exertion, heavy lifting or pulling with the donation arm for about five hours; and eat well balanced meals for the next 24 hours. After donating, smoking and alcohol consumption is not recommended
+            Although donors seldom experience discomfort after donating, if you feel light-headed, lie down until the feeling passes. If some bleeding occurs after removal of the bandage, apply pressure to the site and raise your arm for three to five minutes. If bruising or bleeding appears under the skin, apply a cold pack periodically to the bruised area during the first 24 hours, then warm, moist heat intermittently.
+            If you have any questions concerning your donation or experience any unexpected problems, please call the center where you donated blood.
+            </p>
+        </p>
+        </div>
+</div>
+</center>
+<hr>
+<!--place search-->
+<center>
+<div class="place-search">
+<h2>Where would like to donate?</h2>
+    <form action="" method="post">
+        <label for="username"></label>
+        <input type="text" class="text " placeholder="enter the place.."><br>
+        <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+</div>
+<hr>
+<button><a href="#">feed back...</a></button>
+            
+        <div id="t2" class=" content">
+            <div class="text">
+                <h3>How to donate blood</h3>
+                <textarea  placeholder="comment....."style="height: 200px;width: 600;"></textarea>
+                <input type="submit" value="submit">
+            </div>
+        </div>
+            
+        <div id="t4" class=" content">
+            
+            
+        </div>
+        <div id="t5" class=" content">
+
+        </div>
+
+    <!-- font -->
+    <script src="fa/fa/js/all.js"></script>
+    <!--jquery file-->
+    <script src="js/jquery.js"></script>
+
+
+    <script src="js/blood.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </center>
+</body>
+
+</html>
